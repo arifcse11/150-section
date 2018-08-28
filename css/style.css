@@ -1,0 +1,144 @@
+/* Base CSS */
+
+.alighleft{
+  float: left;
+  margin-right: 15px;
+}
+
+.alighright{
+  float: right;
+  margin-left: 15px;
+}
+
+.aligncenter{
+  display: block;
+  margin: 0 auto 15px;
+}
+
+a:focus {
+  outline: 0 solid;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin: 0 0 15px;
+  font-weight: 700;
+}
+
+html,
+body{
+  height: 100%;
+}
+
+body{
+
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+/* Remove Chrome Input Fields unwanted yellow background color */
+
+input:-webkit-autofill, input:-webkit-autofill:hover , input:-webkit-autofill:focus{
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+.section-bg{
+  background-image: url(../img/bg.jpg);
+
+}
+
+.section-padding {
+    position:  relative;
+}
+
+.section-bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 58%;
+    background-size: cover;
+}
+
+.section-bg:after {
+    position:  absolute;
+    top:  0;
+    left:  0;
+    height:  100%;
+    width:  100%;
+    content:  "";
+    background: #31d6be;
+    opacity: .8;
+}
+
+.contact-form {
+    padding-top:  100px;
+    padding-bottom: 100px;
+}
+
+.contact-form input,.contact-form textarea {
+    width:  100%;
+    border: 1px solid #fff;
+    padding: 15px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.contact-form h2 {
+    color:  #fff;
+}
+
+h2.absolute-text {}
+
+input:focus, textarea:focus,button:focus {
+    outline:  none;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus
+ {
+    border: 1px solid #333;
+}
+
+.contact-form input[type=submit] {
+    width: auto;
+    padding: 15px 30px;
+    color: #3bbab0;
+    background: #fff;
+    font-weight: 700;
+}
+
+.appointment-text {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.appointment-text ul li {
+    padding: 10px;
+}
+
+a.boxed-btn {
+    width:  auto;
+    padding: 20px 55px;
+    background: #35b5aa;
+    color:  #fff;
+    font-weight:  700;
+    border-radius: 5px;
+}
+
+.appointment-text ul {
+  list-style-type:  none;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
